@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(36, 25%, 92%);
+}
+#Header{
+    background-color: rgb(171, 177, 182);
+    border-radius: 13px;
+    text-align: center;
+    font-size: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    margin: 70px;
+    font-size: 2em;
+    border-radius: 8px;
+}
+@keyframes slideLeft{
+    from{transform: translateX(300%)}
+}
+.navbar{
+    background-color:rgb(171, 177, 182);
+    margin-top: 12px;
+    border-radius: 13px;
+    text-align: center;
+    height: 50px;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+.navbar a:hover{
+    background-color: grey;
+}
+.navbar a:active{
+   background-color: rgb(238, 238, 238);
+   color: rgb(177, 177, 177);
+}
+#p1{
+    margin-top: 40px;
+    background-color: rgb(171, 177, 182);
+    border-radius: 13px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+    width: 45%;
+}
+.paragraph{
+    height: 100px;
+}
